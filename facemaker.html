@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Face Builder</title>
+<style>
+
+body
+{
+margin:;
+background-color: #734d26;
+color: white;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.centerImage
+{
+position: relative;
+width: 340px;
+height: 490px;
+background-color: #d9b38c;
+}
+.centerImage2
+{
+position: absolute;
+top: 0px;
+left: 0px;   
+}
+.pics
+{
+position: relative;
+}
+.right
+{
+border: dotted;
+border-radius: 5px;
+width: 25%;
+margin: auto;
+text-align:center;    
+}
+.left
+{
+width: 25%;
+margin: auto;
+}
+.row:after 
+{
+content: "";
+display: table;
+clear: both;
+}   
+</style>
+</head>
+    <body>
+        <h1 style="color:white; text-align:center; font-family: Arial, Helvetica, sans-serif; border-style: dotted;"> FaceMaker 2021 </h1>
+        
+        <div class="row">
+
+        <!-- left column -->
+        <div class="left">
+            <div class="pics">
+        <img class="centerImage" id="myImg" width=340 height=490 src="images/headdddd.png">
+        <img class="centerImage2" id="myImg2"
+width=340 height=490 src="images/headdddd(2).png">
+        <img class="centerImage2" id="myImg3"
+width=340 height=490 src="images/headdddd(1).png">
+            </div>
+        </div>
+       
+         <div class="right">
+
+      <div>
+<p1>Eyes</p1>
+<br>
+<button onclick="myFunction()">Eyes 1</button>
+
+<button onclick="myFunction1()">Eyes 2</button>
+
+<button onclick="myFunction2()">Eyes 3</button>
+<br>
+<p2>Nose</p2>
+<br>
+<button onclick="myFunction3()">Nose 1</button>
+
+<button onclick="myFunction4()">Nose 2</button>
+
+<button onclick="myFunction5()">Nose 3</button>
+<br>
+<p3>Mouth</p3>
+<br>
+<button onclick="myFunction6()">Mouth 1</button>
+
+<button onclick="myFunction7()">Mouth 2</button>
+
+<button onclick="myFunction8()">Mouth 3</button>
+                    
+             </div>
+           </div>
+         </div>
+        
+<script>
+function myFunction() {
+  document.getElementById("myImg").src = "images2/eye1.png";
+}
+function myFunction1() {
+  document.getElementById("myImg").src = "images2/eye2.png";
+}
+function myFunction2() {
+  document.getElementById("myImg").src = "images2/eye3.png";
+}
+function myFunction3() {
+  document.getElementById("myImg2").src = "images2/noses1.png";
+}
+function myFunction4() {
+  document.getElementById("myImg2").src = "images2/noses2.png";
+}
+function myFunction5() {
+  document.getElementById("myImg2").src = "images2/noses3.png";
+}
+function myFunction6() {
+  document.getElementById("myImg3").src = "images2/mouths1.png";
+}
+function myFunction7() {
+  document.getElementById("myImg3").src = "images2/mouths2.png";
+}
+function myFunction8() {
+  document.getElementById("myImg3").src = "images2/mouths3.png";
+}
+</script>
+       
+    </body>
