@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#div1").click(function(){
+    $("#info1").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div2").click(function(){
+    $("#info2").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div3").click(function(){
+    $("#info3").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div2").click(function(){
+    $("#info1").hide("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div2").click(function(){
+    $("#info3").hide("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div1").click(function(){
+    $("#info2").hide("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div1").click(function(){
+    $("#info3").hide("slow");
+  });
+});    
+$(document).ready(function(){
+  $("#div3").click(function(){
+    $("#info1").hide("slow");
+  });
+});
+$(document).ready(function(){
+  $("#div3").click(function(){
+    $("#info2").hide("slow");
+  });
+});    
+</script>
+<style> 
+#div2, #div1, #div3 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+#info1, #info2, #info3 {
+  padding: 50px;
+  display: none;
+}
+img {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<div id="div1">IETF</div>
+    
+<div id="info1">
+<p>The Internet Engineering Task Force (IETF) is a large open international community of network designers, operators, vendors, and researchers concerned with the evolution of the Internet architecture and the smooth operation of the Internet.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IETF_Logo.svg/1200px-IETF_Logo.svg.png" alt="IETF Logo" width="200" height="200">
+<p>The mission of the IETF is to make the Internet work better by producing high quality, relevant technical documents that influence the way people design, use, and manage the Internet.</p>
+<p>The IETF is close to ratifying their Token binding protocol draft proposal, with contributions from Google, Microsoft, and Paypal. Microsoft and Google engineers introduced a plan to create the Token Binding Protocol in order to stop replay attacks on OAuth tokens. Token Binding is a proposed standard for a Transport Layer Security (TLS) extension that aims to increase TLS security by using cryptographic certificates on both ends of the TLS connection.</p>
+<p><a href="https://www.ietf.org/about/mission/">Internet Engineering Task Force</a></p>
+<p><a href="https://thenewstack.io/tls-token-binding-standard-gains-a-foothold-on-the-web/">The NewStack: Token Binding Standard</a></p>     
+</div>
+    
+<div id="div2">ICANN</div>
+    
+<div id="info2">
+<p>ICANN is a not-for-profit public-benefit corporation with participants from all over the world dedicated to keeping the Internet secure, stable and interoperable. It promotes competition and develops policy on the Internet's unique identifiers. Through its coordination role of the Internet's naming system, it does have an important impact on the expansion and evolution of the Internet.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Icann_logo.svg/1200px-Icann_logo.svg.png" alt="ICANN Logo" width="200" height="200">
+<p>ICANN plays a unique role in the infrastructure of the internet. Through its contracts with registries (such as dot-com or dot-info) and registrars (companies that sell domain names to individuals and organizations), we help define how the domain name system functions and expands.</p>
+<p>ICANN supports education. This focus aims to build a global public audience that is knowledgeable of the greater Internet ecosystem.
+ICANN Learn is an online learning platform designed to help the global community better understand how ICANN and the Internet work. Courses are built for various skill levels and languages.</p> 
+<p><a href="https://www.icann.org/public-responsibility">Internet Corporation for Assigned Names and Numbers</a></p>
+</div>
+
+<div id="div3">W3C</div>
+
+<div id="info3">    
+<p>The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards.</p> 
+<p>W3C's primary mission is to develop protocols and guidelines that ensure long-term growth for the Web. W3C's standards define key parts of what makes the World Wide Web work.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/1200px-W3C%C2%AE_Icon.svg.png" alt="W3C Logo" width="200" height="200">
+<p>In addition to the classic “Web of documents” W3C is helping to build a technology stack to support a “Web of data,” the sort of data you find in databases. The ultimate goal of the Web of data is to enable computers to do more useful work and to develop systems that can support trusted interactions over the network. The term “Semantic Web” refers to W3C’s vision of the Web of linked data. Semantic Web technologies enable people to create data stores on the Web, build vocabularies, and write rules for handling data. Linked data are empowered by technologies such as RDF, SPARQL, OWL, and SKOS.</p>
+<p><a href="https://www.w3.org/standards/semanticweb/">World Wide Web Consortium</a></p>
+</div>
+
+</body>
+</html>
