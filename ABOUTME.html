@@ -3,11 +3,41 @@
 <head>
 <title>Page Title</title>
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#more1").click(function(){
+    $("#more").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#more, #more1 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#more {
+  padding: 50px;
+  display: none;
+}
+h1{
+    text-align: center;
+</style>
 <body>
 
 <h1>About Me</h1>
 <p>Hello, my name is Antayjah Nevels. I am overall very much excited about taking this class this semester because its the part of information technology that I'm the most interested in. HTML and CSS are what I'm all about.
 I became interested in computers and programming back when I was in high school. It was literally just apart of a class that I needed to take to graduate. I didn't have much interest in it before then but, after taking the class I knew I could possibly have a future career in the field. One goal I have after graduating from Tri C is to hopefully continue my education else where and to also just have a more clear understanding about my future. I really want to know if this is what I'll be doing in the future. A big dream of mine though is to change the world. No matter how small or big, I just want to feel like I made a difference somewhere. I look at areas and buildings when I drive through my city and I get so many ideas of what stuff could be that its crazy.</p>
+
+<div id="more1">More of my Work</div>
+<div id="more">
+    <p><a href="https://antayjah21.github.io/IT1150/GTG.html">Online Shoppe: Gank That Ghost</a></p>
+    <p><a href="https://antayjah21.github.io/IT1150/facemaker.html">Facemaker</a></p>
+    <p><a href="https://antayjah21.github.io/IT1150/JQuery1.html">Important Internet Organizations</a></p></div>
+
 <a href="https://www.verywellmind.com/the-color-psychology-of-pink-2795819">My Favorite Color is PINK, The Color Psychology of Pink</a>
 <img src="https://images.unsplash.com/photo-1589307004173-3c95204d00ee?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" alt="Favorite Color is Pink">
 
